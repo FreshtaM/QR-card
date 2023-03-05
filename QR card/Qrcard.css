@@ -20,18 +20,16 @@ section.Qrcard .card{
 }
 
 section.Qrcard  .card-img{
-    display: block;
-    width:20vw;
-    height: 40vh;
-    margin: 0 auto;
     border-radius: 15px;
+    max-width: 100%;
 }
 
 section.Qrcard .card-title{
     color:  hsl(218, 44%, 22%);
     font-weight:700;
     font-size: 20px;
-    margin: 5% 5%;
+    margin: 5% 1%;
+    font-family: 'Outfit', sans-serif;
 }
 
 section.Qrcard .card-text{
@@ -39,5 +37,6 @@ section.Qrcard .card-text{
     font-weight: 400;
     line-height: 26px;
     color: hsl(220, 15%, 55%);
-    margin: 0 10%;
+    margin: 0 5%;
+    font-family: 'Outfit', sans-serif;
 }
